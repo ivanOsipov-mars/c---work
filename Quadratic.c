@@ -11,6 +11,6 @@ int main()
     s=b*b-4.0*a*c;
     root1=(-b+sqrt(s))/(2*a);
     root2=(-b-sqrt(s))/(2*a);
-    printf("root1: %f\nroot2: %f\n",root1,root2);
+    printf("%f\n%f",root1,root2);
     return 0;
 }
